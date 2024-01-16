@@ -22,7 +22,7 @@ const SearchBar = ({ setFindWord, findWord, setSelectedWord }) => {
         width: "85%",
         flexShrink: 0,
         minHeight: "50px",
-        maxWidth: "40vw",
+        maxWidth: "33vw",
         borderRadius: "18px",
       }}
     >

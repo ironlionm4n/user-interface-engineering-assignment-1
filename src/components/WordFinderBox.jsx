@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import SearchBar from "./SearchBar";
 
 import { Container } from "@mui/system";
@@ -14,13 +14,14 @@ const WordFinderBox = () => {
       style={{
         resize: "both",
         minWidth: "500px",
-        minHeight: "700px",
+        minHeight: "600px",
         maxWidth: "90vw",
-        maxHeight: "90vh",
+        maxHeight: "80vh",
         overflow: "hidden",
         backgroundColor: "#23272a",
         borderRadius: "10px",
         boxShadow: "0 0 14px black",
+        padding: "36px",
       }}
     >
       <Container

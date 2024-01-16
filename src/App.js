@@ -1,4 +1,4 @@
-import WordFinder from "./components/WordFinder";
+import WordFinderBox from "./components/WordFinderBox";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         marginTop: "2rem",
       }}
     >
-      <WordFinder />
+      <WordFinderBox />
     </div>
   );
 }
